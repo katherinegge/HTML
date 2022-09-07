@@ -1,0 +1,95 @@
+.topnav {
+  background-color: lightslategray;
+  text-align: center;
+}
+.topnav a {
+  display: inline-block;
+  color: whitesmoke; text-decoration: none; font-size: 150%; font-family: tahoma;
+  padding: 20px;
+}
+.topnav a:hover {
+  background-color: lightsteelblue;
+  color: black;
+}
+.topnav a.active {
+  background-color: black;
+  color: whitesmoke;
+}
+
+#header {
+  background-color: whitesmoke;
+  color: black;
+  padding: 40px
+}
+#header h1 {
+  font-size: 400%; font-family: tahoma; font-style: italic; text-align: center;
+}
+
+#home1 {
+  background-color: aliceblue;
+  padding: 45px 200px 15px 200px;
+}
+#home2 {
+  background-color: aliceblue;
+  padding: 15px 200px 70px 200px;
+}
+
+#img1 {
+  float: left;
+  margin-right: 40px;
+  width: 450px; height: 325px;
+}
+#img2 {
+  float: right;
+  margin-left: 40px;
+  width: 500px; height: 300px;
+}
+
+#hometext {
+  font-size: 150%; font-family: tahoma; text-align: center;
+  padding: 45px 0px;
+}
+
+#footer {
+  background-color: black;
+  padding: 60px 200px;
+}
+#footer p {
+  color: whitesmoke; text-align: center; font-size: 90%; font-family: tahoma;
+}
+
+#volleyballsbody {
+  background-color: aliceblue;
+}
+
+#court {
+  background-color: aliceblue;
+  padding: 40px 200px;
+}
+#court img {
+  width: 510px; height: 325px;
+  float: left;
+  margin-right: 40px;
+}
+#court p {
+  font-size: 150%; font-family: tahoma; text-align: center;
+  padding-left: 45px;
+}
+
+.row {
+  margin-right: 200px; margin-left: 200px;
+}
+.column {
+  background-color: aliceblue;
+  width: 33.3333333%;
+  padding: 50px;
+}
+.column img {
+  display: block;
+  margin-left: auto; margin-right: auto;
+  width: 150px; height: 150px;
+}
+.column p {
+  font-size: 125%; font-family: tahoma;
+  text-align: center; color: black;
+}
