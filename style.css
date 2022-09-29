@@ -30,20 +30,20 @@ body p {
   font-size: 400%; font-family: tahoma; font-style: italic; text-align: center;
 }
 #home1 {
-  padding: 45px 200px 15px 200px;
+  padding: 45px 150px 10px 140px;
 }
 #home2 {
-  padding: 15px 200px 70px 200px;
+  padding: 10px 150px 80px 140px;
 }
 #img1 {
   float: left;
   margin-right: 40px;
-  width: 450px; height: 325px;
+  width: 34vw; height: 23vw;
 }
 #img2 {
   float: right;
   margin-left: 40px;
-  width: 500px; height: 300px;
+  width: 35vw; height: 22vw;
 }
 #hometext {
   font-size: 150%; text-align: center;
@@ -57,22 +57,27 @@ body p {
 #footer p {
   color: whitesmoke; font-size: 90%; font-family: tahoma;
 }
-#footer a {
+#jumptotop {
   color: lightsteelblue; font-size: 90%; font-family: tahoma;
 }
+.btn-danger {
+  margin-top: 15px;
+  background-color: maroon;
+  color: gold; font-family: tahoma; font-size: 90%;
+}
 #court {
-  padding: 40px 200px;
+  padding: 50px 140px 0px 140px;
 }
 #court img {
-  width: 510px; height: 325px;
+  width: 40vw; height: 24vw;
   float: left;
-  margin-right: 80px;
+  margin-right: 5vw;
 }
 #court li {
   font-size: 140%; text-align: center; font-family: tahoma; color: black;
 }
 #rules {
-  padding: 40px 200px;
+  padding: 30px 140px;
 }
 #rules h2 {
   font-size: 200%; font-family: tahoma; color: black;
@@ -80,35 +85,37 @@ body p {
   background-color: lightsteelblue;
 }
 #rules li {
-  font-size: 140%; text-align: left; font-family: tahoma; color: black;
+  font-size: 150%; text-align: left; font-family: tahoma; color: black;
   padding: 10px;
+}
+#rules ol {
+  padding-bottom: 30px;
 }
 .row {
   margin-right: 200px; margin-left: 200px;
+  padding-bottom: 30px;
 }
-.column {
-  width: 33.3333333%;
-  padding: 50px;
+#column {
+  padding: 2vw;
+  margin-top: 2vw; margin-bottom: 2vw;
 }
-.column img {
-  display: block;
-  margin-left: auto; margin-right: auto;
-  width: 150px; height: 150px;
-}
-.column p {
+#column p {
   font-size: 125%; text-align: center;
+  margin: 5px;
+}
+#column img {
+  width: 17vw; height: 17vw;
 }
 table, th, tr, td {
   border: 1.5px solid black;
   border-collapse: collapse;
 }
 th, td {
-  font-family: tahoma; font-size: 150%;
+  font-family: tahoma; font-size: 140%;
   padding: 10px;
 }
 td {
-  background-color: whitesmoke;
-  color: black;
+  background-color: whitesmoke
 }
 th {
   background-color: lightsteelblue;
@@ -118,10 +125,11 @@ table {
   width: 100%
 }
 iframe {
-  width: 560; height: 315;
+  width: 64vw; height: 36vw;
+  margin-left: 3vw; margin-right: 3vw;
 }
 #positions {
-  padding: 45px 200px 60px 200px;
+  padding: 5vw 10vw 8vw 10vw;
 }
 #positions p {
   font-size: 150%; text-align: center;
@@ -129,4 +137,56 @@ iframe {
 }
 #positions h1 {
   font-family: tahoma; color: black; font-size: 200%;
+  padding-top: 60px;
+}
+.carousel-item {
+  width: 100%;
+}
+#carousel {
+  margin-left: 5vw; margin-right: 5vw;
+}
+#carousel h2 {
+  font-family: tahoma; color: white;
+  background-color: lightslategray;
+  display: inline-block; padding: 5px 20px;
+}
+.btn-basic {
+  background-color: lightslategray; color: white;
+  font-size: 120%
+}
+#outrules {
+  font-family: tahoma; font-size: 130%; margin: 20px;
+}
+#accordion {
+  margin: 2vw;
+}
+.card {
+  width: 90%;
+  border: aliceblue;
+  margin-left: auto; margin-right: auto;
+}
+.card-header {
+  background-color: whitesmoke;
+}
+.card-header a {
+  font-family: tahoma; font-size: 130%; color: black;
+  padding-right: 75%;
+}
+#card-body {
+  background-color: white;
+}
+#card-body li {
+  font-family: tahoma; font-size: 110%; color: black;
+  padding: 5px;
+}
+.alert-light {
+  font-family: tahoma; color: black; font-size: 120%;
+  margin: 25px 200px;
+}
+.btn-light {
+  padding-left: 5vw; padding-right: 5vw; padding-top: 5px; padding-bottom: 5px;
+  width: 100%;
+  margin: 10px;
+  background-color: white;
+  font-family: tahoma; font-size: 120%; color: black;
 }

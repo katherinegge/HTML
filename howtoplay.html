@@ -16,30 +16,74 @@
       <a href="positions.html">Positions</a>
       <a href="volleyballs.html">Volleyballs</a>
     </div>
-    <div class="container-fluid" id="court">
+    <div class="container" id="court">
       <img src="images/volleyballcourt.jpg" alt="A diagram of a volleyball court.">
       <ul>
         <li>One side of a volleyball court measures about 60 feet by 30 feet.</li>
         <li>It is split up into 6 different zones, each usually occupied by their respective position.</li>
-        <li>The volleyball net is centered between each side; a women's net is 7'4" while a men's net is 7'11".</li>
+        <li>The volleyball net is centered between each side; neither side can cross the net to the other side.</li>
         <li>A 10 foot line on each side separates front-row players and back-row players.</li>
       </ul>
     </div>
-    <div class="container-fluid" id="rules">
+    <div class="container" id="rules">
       <h2>Rules of Volleyball &#127952;</h2>
       <ol>
         <li>There must be 6 players on the court at all times, 3 front-row and 3 back-row players.</li>
         <li>Each side is allowed 3 touches, an individual player may not touch the ball twice in succession.</li>
-        <li>Balls hitting ground outside the court, the antennae, poles, the ceiling, or the ref pole are considered "out".</li>
+        <li>Hitting the ball out is an immediate point for the other side.</li>
+        <button type="button" class="btn btn-basic" data-bs-toggle="collapse" data-bs-target="#outrules">The ball is out if...</button>
+        <div id="outrules" class="collapse">
+          - The ball hits ground outside of the court <br />
+          - The ball hits the antennae <br />
+          - The ball hits the poles or the ref pole <br />
+          - The ball hits the ceiling
+        </div>
         <li>It is illegal to catch, throw, or hold the ball for too long.</li>
-        <li>Players earn points by grounding the ball on the other side. Each set is played to 25 points, 2 out of 3 sets wins.</li>
+        <li>Players earn points by grounding the ball on the other side. Each set is played to 25 points.</li>
       </ol>
+      <h2>Rule Variations</h2>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#mensvolleyball">
+              Men's Volleyball
+            </a>
+          </div>
+          <div class="collapse show" id="mensvolleyball" data-bs-parent="#accordion">
+            <div class="card-body">
+              <ul id="card-body">
+                <li>The men's net height is 7 feet 11 inches.</li>
+                <li>Men's volleyball is a more power-driven game.</li>
+                <li>The typical male volleyball player has a jump topspin serve.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#womensvolleyball">
+              Womens Volleyball
+            </a>
+          </div>
+          <div class="collapse" id="womensvolleyball" data-bs-parent="#accordion">
+            <div class="card-body">
+              <ul id="card-body">
+                <li>The women's net height is 7 feet 4 inches.</li>
+                <li>Women's volleyball is a game of precision and strategy.</li>
+                <li>The typical female volleyball player has a jump float serve.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer>
       <div class="container-fluid" id="footer">
         <p>Author: Katherine Ge <br />
           Email: katherine.ge.24@bishops.com</p>
-        <a href="#header">Jump to top</a>
+        <a href="#header" id="jumptotop">Jump to top</a>
+        <span class="spinner-border text-light spinner-border-sm"></span> <br />
+        <a href="https://bishops.com" class="btn btn-danger">The Bishop's School</a>
       </div>
     </footer>
   </body>

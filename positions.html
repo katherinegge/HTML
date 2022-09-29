@@ -2,8 +2,8 @@
 <html lang="en-US">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -16,14 +16,68 @@
       <a class="active" href="positions.html">Positions</a>
       <a href="volleyballs.html">Volleyballs</a>
     </div>
-    <div class="container-fluid" id="positions">
+    <div class="container" id="positions">
       <iframe src="https://www.youtube.com/embed/DYhys8hBEqc" title="YouTube Video Player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <p>There are six positions on a Volleyball court, and each position is vital to the team's success.
       Each position is unique and requires a specialized skill set.
       Almost always, two positions (a front-row and a back-row) will act as substitues for each other in the rotation.
-      For example, the Middle Hitter and Libero are a pair of substitutes.
+      For example, the Middle Blocker and Libero are a pair of substitutes.
       The Opposite Hitter and Defense Specialist are a pair; a final pair is the Setter and Opposite Hitter.</p>
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="positions/setter.jpg" alt="A Setter" class="d-block w-100">
+            <div class="carousel-caption">
+              <h2>A Setter</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="positions/libero.jpg" alt="A Libero" class="d-block w-100">
+            <div class="carousel-caption">
+              <h2>A Libero</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="positions/outside.jpg" alt="An Outside Hitter" class="d-block w-100">
+            <div class="carousel-caption">
+              <h2>An Outside Hitter</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="positions/middle.jpg" alt="A Middle Blocker" class="d-block w-100">
+            <div class="carousel-caption">
+              <h2>A Middle Blocker</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="positions/opposite.jpg" alt="An Opposite Hitter" class="d-block w-100">
+            <div class="carousel-caption">
+              <h2>An Opposite Hitter</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="positions/defense.jpg" alt="A Defense Specialist" class="d-block w-100">
+            <div class="carousel-caption">
+              <h2>A Defense Specialist</h2>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
       <h1>Volleyball Positions</h1>
       <table>
         <tr>
@@ -47,7 +101,7 @@
           <td>Hitting, Blocking, Defense, Passing</td>
         </tr>
         <tr>
-          <td>Middle Hitter</td>
+          <td>Middle Blocker</td>
           <td>Front-row</td>
           <td>Hitting, Blocking</td>
         </tr>
@@ -67,7 +121,9 @@
       <div class="container-fluid" id="footer">
         <p>Author: Katherine Ge <br />
           Email: katherine.ge.24@bishops.com</p>
-        <a href="#header">Jump to top</a>
+        <a href="#header" id="jumptotop">Jump to top</a>
+        <span class="spinner-border text-light spinner-border-sm"></span> <br />
+        <a href="https://bishops.com" class="btn btn-danger">The Bishop's School</a>
       </div>
     </footer>
   </body>
